@@ -46,7 +46,7 @@ public class EnvironmentPostProcessorImpl implements EnvironmentPostProcessor {
             System.out.println("Success to load " + customProp.getAbsolutePath());
         } catch (IOException e) {
             System.out.println(ExceptionUtils.getInstance().getPrintStackTraceToString(e));
-            System.exit(5);
+            System.exit(0);
         }
     }
 
